@@ -155,7 +155,7 @@
         }
         else
         {
-            var bundledScript = settings.debug ? 'src/project.dev.e1e2d.js' : 'src/project.js';
+            var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.9dfee.js';
             if (jsList) {
                 jsList = jsList.map(function (x) {
                     return 'src/' + x;
@@ -203,7 +203,7 @@
     }
 
     if (true) {
-        require(window._CCSettings.debug ? 'cocos2d-js.a6a95.js' : 'cocos2d-js-min.js');
+        require(window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.505ed.js');
         var prevPipe = cc.loader.md5Pipe || cc.loader.assetLoader;
         cc.loader.insertPipeAfter(prevPipe, wxDownloader);
         boot();
@@ -211,7 +211,7 @@
     }
 
     if (window.jsb) {
-        require('src/settings.f0279.js');
+        require('src/settings.8410f.js');
         require('src/jsb_polyfill.js');
         boot();
         return;
@@ -223,7 +223,7 @@
 
         var cocos2d = document.createElement('script');
         cocos2d.async = true;
-        cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.a6a95.js' : 'cocos2d-js-min.js';
+        cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.505ed.js';
 
         var engineLoaded = function () {
             document.body.removeChild(cocos2d);

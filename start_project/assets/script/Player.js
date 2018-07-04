@@ -29,6 +29,11 @@ cc.Class({
         accLeft:false,
         accRight:false,
         xSpeed:0,
+        //跳跃音效
+        jumpAudio:{
+            default:null,
+            url:cc.AudioClip,
+        }
     }),
 
     getAccLeft:function () {
@@ -62,12 +67,21 @@ cc.Class({
         let jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         // 下落
         let jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
-        // 不断重复
+        // 添加一个回调函数，用于在动作结束时调用我们定义的其他方法
+        let callback = cc.callFunc(this.playJumpSound, this);
+        // 不断重复，而且每次完成落地动作后调用回调来播放声音
         console.log("不断重复上跳和下落的过程");
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown,callback));
     },
 
+    /**
+     * 播放跳跃音效
+     */
+    playJumpSound:function(){
+        // 调用声音引擎播放声音
+        cc.audioEngine.playEffect(this.jumpAudio, false);
 
+    },
 
     update:function(dt){
         //duration time表示每帧之间的间隔时间

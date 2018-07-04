@@ -24,8 +24,8 @@ cc.Class({
         //根据player节点位置判断距离
         let playerPos = this.game.player.getPosition();
         // 根据两点位置计算两点之间距离
-        console.log("星星的位置:",this.node.position);
-        console.log("角色的位置:",playerPos);
+        // console.log("星星的位置:",this.node.position);
+        // console.log("角色的位置:",playerPos);
         let dist = cc.pDistance(this.node.position, playerPos);
         return dist;
 
@@ -51,7 +51,7 @@ cc.Class({
     update :function(dt) {
         //判断星星与主角的距离
         // 每帧判断和主角之间的距离是否小于收集距离
-        console.log(this.getPlayerDistance());
+        // console.log(this.getPlayerDistance());
         if (this.getPlayerDistance() < this.pickRadius) {
             // 调用收集行为
             this.onPicked();

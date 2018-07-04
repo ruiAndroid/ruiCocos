@@ -33,6 +33,11 @@ cc.Class({
         scoreDisplay: {
             type: cc.Label,
             default: null
+        },
+        //得分音效
+        scoreAudio: {
+            default: null,
+            url: cc.AudioClip
         }
 
     },
@@ -52,6 +57,8 @@ cc.Class({
         this.score += 1;
         // 更新 scoreDisplay Label 的文字
         this.scoreDisplay.string = 'Score: ' + this.score.toString();
+        // 播放得分音效
+        cc.audioEngine.playEffect(this.scoreAudio, false);
     },
 
     /**
@@ -82,8 +89,8 @@ cc.Class({
         var maxX = this.node.width / 2;
         randX = cc.randomMinus1To1() * maxX;
         // 返回星星坐标
-        console.log('查看随机生成的星星的坐标');
-        console.log(randX, randY);
+        // console.log('查看随机生成的星星的坐标');
+        // console.log(randX, randY);
 
         return cc.p(randX, randY);
     },
