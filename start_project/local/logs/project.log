@@ -1,0 +1,151 @@
+2018-07-04T08:36:06.096Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-04T08:36:06.104Z - normal: checking language setting...
+2018-07-04T08:36:06.104Z - normal: Language: zh
+2018-07-04T08:36:08.055Z - success: protocol editor-framework registered
+2018-07-04T08:36:08.055Z - success: protocol app registered
+2018-07-04T08:36:08.055Z - success: protocol theme registered
+2018-07-04T08:36:08.055Z - success: protocol packages registered
+2018-07-04T08:36:08.055Z - success: protocol unpack registerred
+2018-07-04T08:36:08.055Z - success: protocol disable-commonjs registerred
+2018-07-04T08:36:08.287Z - normal: connected!
+2018-07-04T08:36:08.289Z - normal: Check project C:\Users\Administrator\Desktop\cocos\cocos\cocosDemo\start_project
+2018-07-04T08:36:08.291Z - normal: Initializing Cocos2d
+2018-07-04T08:36:08.552Z - normal: Initializing Asset Database
+2018-07-04T08:36:08.593Z - success: protocol uuid registerred
+2018-07-04T08:36:08.593Z - success: protocol db registerred
+2018-07-04T08:36:08.593Z - success: protocol thumbnail registerred
+2018-07-04T08:36:08.593Z - normal: Loading editor/builtin packages
+2018-07-04T08:36:08.616Z - success: anysdk loaded
+2018-07-04T08:36:08.779Z - success: assets loaded
+2018-07-04T08:36:08.781Z - success: builder loaded
+2018-07-04T08:36:08.786Z - success: cocos-analytics loaded
+2018-07-04T08:36:08.789Z - success: console loaded
+2018-07-04T08:36:08.831Z - success: fb-instant-games loaded
+2018-07-04T08:36:08.841Z - success: hierarchy loaded
+2018-07-04T08:36:08.843Z - success: inspector loaded
+2018-07-04T08:36:08.844Z - success: keystore loaded
+2018-07-04T08:36:08.846Z - success: node-library loaded
+2018-07-04T08:36:08.847Z - success: package-asset loaded
+2018-07-04T08:36:08.849Z - success: preferences loaded
+2018-07-04T08:36:08.850Z - success: project-exporter loaded
+2018-07-04T08:36:08.868Z - success: project-importer loaded
+2018-07-04T08:36:08.870Z - success: project-settings loaded
+2018-07-04T08:36:08.873Z - success: ui-kit loaded
+2018-07-04T08:36:08.875Z - success: ui-grid loaded
+2018-07-04T08:36:08.878Z - success: scene loaded
+2018-07-04T08:36:08.879Z - success: sprite-editor loaded
+2018-07-04T08:36:08.881Z - success: store loaded
+2018-07-04T08:36:08.886Z - success: timeline loaded
+2018-07-04T08:36:08.886Z - normal: Loading builtin packages
+2018-07-04T08:36:08.890Z - success: asset-db-debugger loaded
+2018-07-04T08:36:08.892Z - success: code-editor loaded
+2018-07-04T08:36:08.892Z - success: color-picker loaded
+2018-07-04T08:36:08.894Z - success: package-manager loaded
+2018-07-04T08:36:08.896Z - success: qqplay-adapter loaded
+2018-07-04T08:36:08.900Z - success: sdkbox loaded
+2018-07-04T08:36:08.904Z - success: tester loaded
+2018-07-04T08:36:08.906Z - success: ui-kit-preview-extra loaded
+2018-07-04T08:36:08.908Z - success: ui-kit-preview loaded
+2018-07-04T08:36:08.909Z - success: ui-tree loaded
+2018-07-04T08:36:08.910Z - success: weapp-adapter loaded
+2018-07-04T08:36:10.229Z - normal: Initializing project C:\Users\Administrator\Desktop\cocos\cocos\cocosDemo\start_project
+2018-07-04T08:36:10.232Z - normal: Loading packages
+2018-07-04T08:36:10.237Z - normal: Watching packages
+2018-07-04T08:36:10.577Z - normal: Run Application
+2018-07-04T08:36:11.450Z - success: preview server running at http://localhost:7456
+2018-07-04T08:36:16.318Z - normal: 1.9.2
+2018-07-04T09:00:06.239Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\Administrator\Desktop\cocos\cocos\cocosDemo\start_project\assets\script\Game.js, message: Compile error: SyntaxError: C:/Users/Administrator/Desktop/cocos/cocos/cocosDemo/start_project/assets/script/Game.js: let is a reserved word (41:4)
+  39 |      */
+  40 |     //使用给定的模板在场景中生成一个新的节点
+> 41 |     let newStat=cc.info()
+     |     ^
+  42 |     spawnNewStar:function(){
+  43 | 
+  44 |     },
+    at Parser.pp$5.raise (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp$3.checkReservedWord (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4347:10)
+    at Parser.pp$3.parseObjectProperty (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4121:10)
+    at Parser.pp$3.parseObjPropValue (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (F:\cosco\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2018-07-04T09:12:13.321Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2018-07-04T09:12:13.324Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
+2018-07-04T09:12:13.324Z - normal: Simulator: FRAME SCALE = 1.00
+2018-07-04T09:12:13.497Z - normal: Simulator: Ready for GLSL
+2018-07-04T09:12:13.498Z - normal: Simulator: Ready for OpenGL 2.0
+2018-07-04T09:12:13.501Z - normal: Simulator: 
+2018-07-04T09:12:13.503Z - normal: Simulator: {
+2018-07-04T09:12:13.504Z - normal: Simulator: 	gl.version: 4.3.0 - Build 10.18.14.4578
+2018-07-04T09:12:13.504Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-07-04T09:12:13.504Z - normal: Simulator: 	cocos2d.x.version: Cocos2d-x-lite v1.8.2
+2018-07-04T09:12:13.505Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-07-04T09:12:13.505Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-07-04T09:12:13.505Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-07-04T09:12:13.505Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.vendor: Intel
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.renderer: Intel(R) HD Graphics 4600
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.max_texture_units: 192
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-07-04T09:12:13.506Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-07-04T09:12:13.507Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-07-04T09:12:13.507Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-07-04T09:12:13.507Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-07-04T09:12:13.508Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-07-04T09:12:13.508Z - normal: Simulator: }
+2018-07-04T09:12:13.508Z - normal: Simulator: 
+2018-07-04T09:12:13.508Z - normal: Simulator: 
+2018-07-04T09:12:13.508Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-07-04T09:12:13.517Z - normal: Simulator: Project Config:
+2018-07-04T09:12:13.517Z - normal: Simulator:     project dir: F:\cosco\CocosCreator\resources\cocos2d-x\simulator\win32\
+2018-07-04T09:12:13.518Z - normal: Simulator:     writable path: $(PROJDIR)\
+2018-07-04T09:12:13.518Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2018-07-04T09:12:13.519Z - normal: Simulator:     frame size: 960 x 640
+2018-07-04T09:12:13.519Z - normal: Simulator:     frame scale: 1.00
+2018-07-04T09:12:13.520Z - normal: Simulator:     show console: NO
+2018-07-04T09:12:13.520Z - normal: Simulator:     write debug log: NO ()
+2018-07-04T09:12:13.521Z - normal: Simulator:     listen: 
+2018-07-04T09:12:13.521Z - normal: Simulator:     debugger: none
+2018-07-04T09:12:13.521Z - normal: Simulator:     add searching path:
+2018-07-04T09:12:13.521Z - normal: Simulator: 
+2018-07-04T09:12:13.521Z - normal: Simulator: 
+2018-07-04T09:12:13.521Z - normal: Simulator: 
+2018-07-04T09:12:13.522Z - normal: Simulator: ------------------------------------------------
+2018-07-04T09:12:13.522Z - normal: Simulator: LOAD Js FILE: main.js
+2018-07-04T09:12:13.522Z - normal: Simulator: ------------------------------------------------
+2018-07-04T09:12:13.531Z - normal: Simulator: D/jswrapper (364): Initializing V8, version: 6.0.286.52
+2018-07-04T09:12:13.966Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2018-07-04T09:12:13.969Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2018-07-04T09:12:13.969Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2018-07-04T09:12:14.088Z - normal: Simulator: D/jswrapper (125): JS: Cocos2d-x-lite v1.8.2
+2018-07-04T09:12:14.305Z - normal: Simulator: iShow!
+2018-07-04T09:12:14.385Z - normal: Simulator: D/jswrapper (125): JS: InitScene: 1.8700000000000045ms
+2018-07-04T09:12:14.388Z - normal: Simulator: D/jswrapper (125): JS: AutoRelease: 0.2769999999999868ms
+2018-07-04T09:12:14.389Z - normal: Simulator: D/jswrapper (125): JS: Destroy: 0.1239999999999668ms
+2018-07-04T09:12:14.389Z - normal: Simulator: D/jswrapper (125): JS: AttachPersist: 0.013000000000033651ms
+2018-07-04T09:12:14.406Z - normal: Simulator: D/jswrapper (125): JS: 加载游戏
+2018-07-04T09:12:14.406Z - normal: Simulator: D/jswrapper (125): JS: 不断重复上跳和下落的过程
+2018-07-04T09:12:14.412Z - normal: Simulator: D/jswrapper (125): JS: 查看随机生成的星星的坐标
+2018-07-04T09:12:14.413Z - normal: Simulator: D/jswrapper (144): JS: -0 -4691.552848899948
+2018-07-04T09:12:14.413Z - normal: Simulator: D/jswrapper (125): JS: Activate: 23.22399999999999ms
+2018-07-04T09:12:20.342Z - normal: Simulator: SimulatorWin::openNewPlayerWithProjectConfig(): F:\cosco\CocosCreator\resources\cocos2d-x\simulator\win32\Simulator.exe -workdir "F:\cosco\CocosCreator\resources\cocos2d-x\simulator\win32\\" -entry "F:\cosco\CocosCreator\resources\cocos2d-x\simulator\win32\main.js" -writable-path "F:\cosco\CocosCreator\resources\cocos2d-x\simulator\win32\\" -resolution 640x960 -console disable
+2018-07-04T09:12:20.352Z - normal: Simulator: D/jswrapper (447): ScriptEngine::cleanup begin ...
+2018-07-04T09:12:20.352Z - normal: Simulator: D/jswrapper (588): GC begin ..., (js->native map) size: 75, all objects: 356
+2018-07-04T09:12:20.428Z - normal: Simulator: D/jswrapper (596): GC end ..., (js->native map) size: 55, all objects: 336
+2018-07-04T09:12:20.428Z - normal: Simulator: D/jswrapper (588): GC begin ..., (js->native map) size: 55, all objects: 336
+2018-07-04T09:12:20.428Z - normal: Simulator: D/jswrapper (596): GC end ..., (js->native map) size: 55, all objects: 336
+2018-07-04T09:12:20.429Z - normal: Simulator: D/jswrapper (588): GC begin ..., (js->native map) size: 0, all objects: 0
+2018-07-04T09:12:20.466Z - normal: Simulator: D/jswrapper (596): GC end ..., (js->native map) size: 0, all objects: 0
+2018-07-04T09:12:20.466Z - normal: Simulator: D/jswrapper (482): Starting to cleanup dragonbones object, count: 0
+2018-07-04T09:12:20.466Z - normal: Simulator: D/jswrapper (501): After first cleanup, dragonbones object remained count: 0
+2018-07-04T09:12:20.466Z - normal: Simulator: D/jswrapper (517): After second cleanup, dragonbones object remained count: 0
+2018-07-04T09:12:20.467Z - normal: Simulator: D/jswrapper (510): ScriptEngine::cleanup end ...
+2018-07-04T09:22:41.145Z - warn: The Asset used by component "Game" is missing. Detailed information:
+Node path: "game"
+Missing uuid: "990b0c1e-40ee-4213-b6aa-ff1b2e4f1db4"
+
